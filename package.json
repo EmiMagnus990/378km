@@ -1,0 +1,24 @@
+{
+  "name": "378km",
+  "version": "1.0.0",
+  "description": "proyecto 378km coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/main.css --watch",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmiMagnus990/378km.git"
+  },
+  "author": "Emilio Bonzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmiMagnus990/378km/issues"
+  },
+  "homepage": "https://github.com/EmiMagnus990/378km#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
